@@ -174,7 +174,7 @@ footer .container {
     display: none;
   }
 }
-@media (min-width: 426) and (max-width: 768px) {
+@media (min-width: 425px) and (max-width: 768px) {
   .secao-banner {
     height: 300px;
   }
