@@ -1,0 +1,87 @@
+.topo{
+  padding: 0 20px;
+  text-align: center;
+}
+.links-especialidades {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    text-align: center;
+}
+.links-especialidades a {
+  margin: 0 10px 10px 10px;
+  text-decoration: none;
+  font-size: 20px;
+  border-bottom: 2px solid rgb(27, 121, 121);
+  color: rgb(70, 65, 65);
+}
+.links-especialidades a:hover {
+  color: #0d6e71;
+}
+
+.box-tabela-especialidade {
+  display: flex;
+  height: 240px;
+  padding: 0 20px;
+  margin-bottom: 45px;
+}
+.box-tabela-especialidade img {
+  height: 100%;
+  width: 30%;
+  object-fit: cover;
+}
+.tabela-especialidade {
+  width: 70%;
+  height: 100%;
+  border-spacing: 0;
+  text-align: left;
+}
+.tabela-especialidade thead tr {
+  background-color: #00cad1;
+  color: #fff;
+}
+.tabela-especialidade tr {
+  background-color: #f1f1f1;
+  color: #585757;
+  font-weight: 500;
+}
+.tabela-especialidade tbody tr:nth-of-type(odd) {
+  background-color: #cdcdcd;
+  border: 1px solid #f1f1f1;
+}
+
+.tabela-especialidade th,
+.tabela-especialidade td {
+  padding: 10px;
+}
+
+/* responsivo de 768px*/
+@media(max-width: 425px){
+  .container-conteudo{
+    font-size: 16px;
+  }
+  .box-tabela-especialidade, .tabela-especialidade{
+    width: 100%;
+    padding: 0;
+  }
+  .box-tabela-especialidade img{
+    display: none;
+}
+  footer{
+    position: relative;
+    top: 100px;
+  }
+  
+}
+@media (max-width: 768px){
+    .tabela-especialidade{
+        width: 100%;
+    }
+    .box-tabela-especialidade{
+      padding: 0 20px;
+    }
+    .box-tabela-especialidade img{
+        display: none;
+    }
+}
